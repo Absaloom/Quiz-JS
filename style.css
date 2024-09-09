@@ -1,0 +1,50 @@
+.fragenDiv {
+    border: 1px solid black;
+    box-shadow:10px 5px 5px  grey;
+    
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(238, 236, 236);
+    background: linear-gradient(-45deg, lightblue, white, lightblue, white, lightblue);
+    background: linear-gradient(45deg, )
+}
+.questionResult {
+    margin: 0.25rem;
+    padding-top: 0.25rem;
+}
+
+.auswertungsDiv {
+    display: block flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+.fragenHead {
+    display: block flex;
+    padding: 0.25rem 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fragenNumber {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: rgb(6, 167, 167);
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 5px 3px 5px rgb(3, 43, 43);
+    font-size: x-large;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    min-width: 30px ;
+}
+.fragenTitel {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+}
+.fragenPoints {
+    min-width: 30px;
+}
+
